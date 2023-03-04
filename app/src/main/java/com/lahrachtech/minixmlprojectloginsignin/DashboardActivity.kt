@@ -14,5 +14,9 @@ class DashboardActivity : AppCompatActivity() {
             val mainIntent = Intent(this@DashboardActivity, MainActivity::class.java)
             startActivity(mainIntent)
         }
+        branchIcon.setOnClickListener{
+            val mainIntent = Intent(this@DashboardActivity, BrancheActivity::class.java)
+            startActivity(mainIntent)
+        }
     }
 }

@@ -29,6 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3">
 
         <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
             android:layout_width="match_parent"
             android:text="mohamed zouhaire"
             android:layout_height="wrap_content" />
