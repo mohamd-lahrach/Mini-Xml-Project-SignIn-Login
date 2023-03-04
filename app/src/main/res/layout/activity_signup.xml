@@ -139,28 +139,33 @@
                 android:text="Regester"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:layout_marginTop="16dp"
-    android:layout_marginBottom="16dp"
-   android:paddingLeft="32dp">
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Are you already exist?"
 
-        android:textColor="#ffffff" />
-    <TextView
-        android:id="@+id/loginRequest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:background="@drawable/my_textview_bg"
-        android:textColor="#ffffff" />
-</LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Are you already exist?"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/loginRequest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/my_textview_bg"
+                    android:text="Login"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
