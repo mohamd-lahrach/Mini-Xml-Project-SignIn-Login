@@ -128,7 +128,7 @@
                 android:textColorHint="#ffffff" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/signupBtn"
                 style="@android:style/Widget.Button"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"

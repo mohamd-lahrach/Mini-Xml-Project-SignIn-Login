@@ -7,7 +7,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="my_textview_pressed_color">#696868</color>
+    <color name="my_textview_pressed_color">#818080</color>
     <color name="my_textview_normal_color">#5F6088</color>
-
 </resources>
