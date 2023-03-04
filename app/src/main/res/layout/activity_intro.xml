@@ -17,17 +17,19 @@
         app:srcCompat="@drawable/back_1" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/appLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:srcCompat="@drawable/logo1" />
+        app:srcCompat="@drawable/app_logo" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/starButton"
         android:layout_width="129dp"
         android:layout_height="127dp"
         android:layout_marginEnd="4dp"
@@ -38,14 +40,15 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="201dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Welcom to\n UiLover Channel"
-        android:textColor="#ffffff"
-        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:text="Welcom to\nGroupePro"
+        android:textColor="#C0C0C0"
+        android:textSize="50sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintBottom_toTopOf="@+id/starButton"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
