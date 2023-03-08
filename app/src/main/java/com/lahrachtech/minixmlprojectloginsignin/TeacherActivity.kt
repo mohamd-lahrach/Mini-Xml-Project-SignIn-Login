@@ -37,7 +37,6 @@ class TeacherActivity : AppCompatActivity() {
                     .show()
 
                 addTeacher.setOnClickListener {
-                    val branchRef = mDatabase.database.reference.child("branches/${brnch.id}")
                     val firstName = etFirstName.text.toString()
                     val lastName = etLastName.text.toString()
                     val age = etAge.text.toString()
@@ -47,8 +46,6 @@ class TeacherActivity : AppCompatActivity() {
                     if (firstName.isNotEmpty() && lastName.isNotEmpty() && age.isNotEmpty() && cin.isNotEmpty() && email.isNotEmpty() && phone.isNotEmpty()) {
                         val teacher = Teacher(firstName, lastName, age, cin, email, phone)
                         brnch.addTeacher(teacher)
-
-
                     } else {
                         Toast.makeText(this, "errrooooorrrr", Toast.LENGTH_SHORT).show()
                     }

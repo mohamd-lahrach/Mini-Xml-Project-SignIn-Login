@@ -29,7 +29,7 @@ class Branche {
     }
 
     override fun toString(): String {
-        return "Branche(id='$id', brancheName='$brancheName', acronym='$acronym')"
+        return "Branch(id='$id', branchName='$brancheName', acronym='$acronym')"
     }
 
 }
