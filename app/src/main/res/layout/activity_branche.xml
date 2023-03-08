@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".BrancheActivity">
 
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/passwordTextInputLayout1"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
@@ -29,20 +30,16 @@
             android:textColor="@color/black"
             android:textSize="18sp"
             tools:ignore="Deprecated" />
-
-
     </com.google.android.material.textfield.TextInputLayout>
 
-
-
-    <!--    <androidx.recyclerview.widget.RecyclerView-->
-    <!--        android:id="@+id/rvBranchesList"-->
-    <!--        android:layout_width="0dp"-->
-    <!--        android:layout_height="0dp"-->
-    <!--        app:layout_constraintBottom_toTopOf="@+id/faBtnAddBranch"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/passwordTextInputLayout2" />-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBranchesList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/faBtnAddBranch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTextInputLayout1" />
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/faBtnAddBranch"
         android:layout_width="wrap_content"

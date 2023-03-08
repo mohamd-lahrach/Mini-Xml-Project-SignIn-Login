@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherActivity"
+    android:background="@drawable/testback"
+    android:padding="16dp"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/transparentBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_purple_1"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/passwordTextInputLayout1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/background_edittext"
+                android:hint="Select Branch you teach"
+                android:textColorHint="#ffffff"
+                app:boxStrokeColor="#388E3C"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <AutoCompleteTextView
+                    android:id="@+id/chooseBrancheForTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_edittext"
+                    android:editable="false"
+                    android:padding="5dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    tools:ignore="Deprecated" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <EditText
+                android:id="@+id/etFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/background_edittext"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/etLastName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/background_edittext"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/etAge"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/background_edittext"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Age"
+                android:inputType="number"
+                android:padding="16dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/etCIN"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/background_edittext"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="CIN"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/background_edittext"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="16dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/background_edittext"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="phone number"
+                android:inputType="phone"
+                android:padding="16dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+
+            <Button
+                android:id="@+id/addTeacher"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/background_button"
+                android:text="Add teacher"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

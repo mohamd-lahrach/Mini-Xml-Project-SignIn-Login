@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="cursive"
         android:text="Welcom to\nGroupePro"
-        android:textColor="#C0C0C0"
+        android:textColor="#FFFFFF"
         android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/starButton"

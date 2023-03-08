@@ -18,5 +18,9 @@ class DashboardActivity : AppCompatActivity() {
             val mainIntent = Intent(this@DashboardActivity, BrancheActivity::class.java)
             startActivity(mainIntent)
         }
+        btnTeacher.setOnClickListener{
+            val mainIntent = Intent(this@DashboardActivity, TeacherActivity::class.java)
+            startActivity(mainIntent)
+        }
     }
 }

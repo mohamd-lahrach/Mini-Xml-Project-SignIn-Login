@@ -6,9 +6,8 @@ import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import com.google.firebase.database.*
-import com.lahrachtech.textinputlayout.Branche
+import com.google.firebase.database.ValueEventListener
 import kotlinx.android.synthetic.main.activity_branche.*
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.dialog_branche.view.*
 
 class BrancheActivity : AppCompatActivity() {
